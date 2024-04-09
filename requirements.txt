@@ -1,0 +1,20 @@
+google-generativeai
+scikit-learn
+matplotlib
+pandas
+numpy 
+plotly
+streamlit
+catboost
+<<<<<<< HEAD
+pillow
+llama_index
+llama-index-embeddings-gemini
+langchain
+llama-index-llms-gemini
+llama-index-vector-stores-qdrant 
+llama-index-readers-file 
+=======
+sklearn
+pillow
+>>>>>>> origin/main

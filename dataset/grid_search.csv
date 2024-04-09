@@ -1,0 +1,43 @@
+,Model_Name,Best_Parameter
+0,LogisticRegression,"LogisticRegression(C=0.1, solver='liblinear')"
+1,KNeighborsClassifier,KNeighborsClassifier(n_neighbors=3)
+2,DecisionTreeClassifier,DecisionTreeClassifier()
+3,RandomForestClassifier,RandomForestClassifier(n_estimators=50)
+4,SVC,"SVC(C=0.1, kernel='linear')"
+5,GaussianNB,GaussianNB()
+6,XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)"
+7,VotingClassifier,"VotingClassifier(estimators=[('modelLogisticRegression',
+                              LogisticRegression(C=0.1, solver='liblinear')),
+                             ('modelKNeighborsClassifier',
+                              KNeighborsClassifier(n_neighbors=3)),
+                             ('modelDecisionTreeClassifier',
+                              DecisionTreeClassifier()),
+                             ('modelRandomForestClassifier',
+                              RandomForestClassifier(n_estimators=50)),
+                             ('modelSVC', SVC(C=0.1, kernel='linear')),
+                             ('modelGaussi...
+                                            grow_policy=None,
+                                            importance_type=None,
+                                            interaction_constraints=None,
+                                            learning_rate=0.1, max_bin=None,
+                                            max_cat_threshold=None,
+                                            max_cat_to_onehot=None,
+                                            max_delta_step=None, max_depth=3,
+                                            max_leaves=None,
+                                            min_child_weight=None, missing=nan,
+                                            monotone_constraints=None,
+                                            multi_strategy=None,
+                                            n_estimators=None, n_jobs=None,
+                                            num_parallel_tree=None,
+                                            objective='multi:softprob', ...))])"
+8,CatBoostClassifier,<catboost.core.CatBoostClassifier object at 0x7b554769c850>

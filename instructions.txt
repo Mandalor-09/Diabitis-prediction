@@ -1,0 +1,12 @@
+first step
+python -m venv venv
+
+second step
+source venv/bin/activate
+
+third
+pip install joblib pandas numpy xgboost catboost matplotlib seaborn streamlit 
+pip install scikit-learn==1.2.0
+
+fourth
+streamlit run app.py
